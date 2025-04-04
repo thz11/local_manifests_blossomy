@@ -3,9 +3,10 @@
 
   <remote name="t25" fetch="https://github.com/TelegramAt25" />
   <remote name="LOS" fetch="https://github.com/LineageOS" />
+  <remote name="Thiago" fetch="https://github.com/thz11" />
 
   <!-- Device Trees -->
-  <project path="device/xiaomi/blossom" name="android_device_xiaomi_blossom" remote="t25" revision="typhoon" />
+  <project path="device/xiaomi/blossom" name="android_device_xiaomi_blossom" remote="Thiago" revision="thirteen-pop" />
 
   <!-- SELinux Policies -->
   <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="LOS" revision="lineage-20" />
